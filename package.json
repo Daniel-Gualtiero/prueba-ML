@@ -1,0 +1,23 @@
+{
+  "name": "prueba-ml",
+  "version": "1.0.0",
+  "description": "prueba para subir a git proyecto de ML",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Gualtiero/prueba-ML.git"
+  },
+  "keywords": [
+    "pruebas",
+    "mercado-liebre-test"
+  ],
+  "author": "Daniel-Gualtiero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Gualtiero/prueba-ML/issues"
+  },
+  "homepage": "https://github.com/Daniel-Gualtiero/prueba-ML#readme"
+}
