@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Daniel-Gualtiero/prueba-ML/issues"
   },
-  "homepage": "https://github.com/Daniel-Gualtiero/prueba-ML#readme"
+  "homepage": "https://github.com/Daniel-Gualtiero/prueba-ML#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
