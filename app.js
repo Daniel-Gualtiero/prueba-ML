@@ -13,7 +13,7 @@ const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 
 //montar servidor
-app.listen(3020, () => console.log('Servidor corriendo en el puerto 3020'));
+app.listen(process.env.PORT || 3000, () => console.log('Servidor corriendo en el puerto 3000'));
 
 app.get('/', (req, res) => {
     res.sendFile( path.resolve('./views/home.html'));
