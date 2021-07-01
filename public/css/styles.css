@@ -26,6 +26,7 @@ div.top-header{
 }
 
 header div.top-header p{
+    display: flex;
     width: 100%;
     text-align: center;
     margin-top: 10px;
@@ -76,6 +77,16 @@ header .form .submit{
     border: 1px solid #000;
     color: #666;
     width: 10%;
+}
+
+.logo {
+    display: flex;
+    size: 20%;
+}
+
+.form {
+    display: flex;
+    size: 20%;
 }
 
 div.burger-menu{
