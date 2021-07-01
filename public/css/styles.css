@@ -303,7 +303,6 @@ article div.main-article{
     .nav-ini {
         display: flex;
         justify-content: space-between;
-        margin: 2%;
     }
     .nav-ini-li {
         display: flex;
