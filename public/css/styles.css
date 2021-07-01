@@ -300,4 +300,14 @@ article div.main-article{
     div.top-header {
         flex-wrap: nowrap;
     }
+    .nav-ini {
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    .nav-ini-li {
+        display: flex;
+        justify-content: space-around;
+        margin: 2%;
+    }
 }
