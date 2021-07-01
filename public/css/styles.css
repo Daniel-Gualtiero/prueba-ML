@@ -211,6 +211,8 @@ article div.main-article{
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
+    size: 2em;
+    margin-top: 5%;
 }
 
 .titulares { font-size: 24px; color: #666; text-align: center }
@@ -246,6 +248,13 @@ article div.main-article{
     margin-left: 25%;
 }
 
+
+@media (max-width: 360px) {
+    .nav-ini {
+        display: none;
+    }
+}
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
@@ -278,6 +287,10 @@ article div.main-article{
     .discount{
         width: 50%;
     }
+    div.burger-menu i {
+        display: none;
+    }
+    
 }
 
 @media (min-width: 769px){
